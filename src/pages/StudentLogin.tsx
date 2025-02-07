@@ -1,7 +1,8 @@
 import '../components/StudentLogin.css';
 import pfp from '../components/pfp.png';
+import water from '../components/water.gif'
 
-function Profile() {
+export default function StudentLogin() {
     return (
         <>
             <div className="container-wrapper">
@@ -10,6 +11,11 @@ function Profile() {
                     
                     <div className="name">
                         <h1>George</h1>
+                    </div>
+
+                    <img src={water} className="water" alt="water" />
+                    <div className="waternumber">
+                        <h1>47%<br></br> Completed</h1>
                     </div>
 
                 </div>
@@ -38,4 +44,3 @@ function Profile() {
     );
 }
 
-export default Profile;

@@ -1,0 +1,29 @@
+.startcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.parentbutton{
+    background-color: #ff6f61; /* Light background color */
+    border-radius: 25px; /* Rounded corners */
+    padding: 10px; /* Padding for spacing around the text */
+    margin: 2px; /* Margin for spacing between elements */
+    text-align: center; /* Center the text within the box */
+    width:200px;
+    cursor: pointer;
+    margin:50px;
+}
+
+.studentbutton{
+    background-color: #6699cc; /* Light background color */
+    border-radius: 25px; /* Rounded corners */
+    padding: 10px; /* Padding for spacing around the text */
+    margin: 2px; /* Margin for spacing between elements */
+    text-align: center; /* Center the text within the box */
+    width:200px;
+    cursor: pointer;
+    margin:50px;
+}
