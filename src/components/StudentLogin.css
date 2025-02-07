@@ -1,0 +1,103 @@
+.container-wrapper {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    flex-direction: column; /* Stack containers vertically */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 45%;  /* Adjust width to fill half of the screen */
+    height: 100vh;  /* Full viewport height */
+    border: 10px solid beige;  /* Combined border properties */
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.pfp{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height:30%;
+
+}
+
+.name {
+    font-size: 30px;
+    color: black;
+    margin-right: 100px;
+}
+
+.container2, .container3 {
+    display: flex;
+    justify-content: center; /* Centers text horizontally */
+    align-items: center; /* Centers text vertically */
+    width: 53%;  /* Adjust width */
+    height: 50vh;  /* Half viewport height */
+    position: absolute;
+    left: 0;
+    transition: filter 300ms, transform 0.5s; /* Combine transitions */
+}
+
+
+.line {
+    background-color: #fbe9c9; /* Set background color instead of text color */
+    width: 10px;
+    height: 100%;
+    position: absolute;
+    right: 45%; /* Adjust based on the width of container */
+}
+
+.line2 {
+    background-color: #fbe9c9; /* Set background color */
+    width: calc(100% - 45%);
+    height: 10px; /* Thin height for a horizontal line */
+    position: absolute;
+    top: 50vh; /* Position it between container2 and container3 */
+    left: 0; /* Align it to the left */
+}
+
+
+
+  
+  .container3:hover {
+    transform: scale(1.06);
+    filter: drop-shadow(0 0 2em #ffaa00);
+  }
+
+  .container2:hover {
+    transform: scale(1.06);
+    filter: drop-shadow(0 0 2em #ffaa00);
+  }
+
+
+
+.container2 {
+    top: 0;
+}
+
+.container3 {
+    top: 50vh;  /* Position it below container2 */
+}
+
+.lefttext {
+    font-size: 45px;
+    display: flex;
+    justify-content: center; /* Centers text horizontally */
+    align-items: center; /* Centers text vertically */
+    height: 100%; /* Full height of container */
+    color: rgb(255, 255, 255);    
+}
+
+.rounded-box {
+    background-color: rgb(255, 180, 68); /* Light background color */
+    border-radius: 25px; /* Rounded corners */
+    padding: 10px; /* Padding for spacing around the text */
+    margin: 2px; /* Margin for spacing between elements */
+    text-align: center; /* Center the text within the box */
+}
+
+
